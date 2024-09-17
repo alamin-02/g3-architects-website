@@ -12,6 +12,7 @@
     font-weight: 700;
     color: #131313;
 }
+
 .text-light-gray {
     color: #727272;
 }
@@ -27,14 +28,9 @@
 }
 
 .btn-primary:active {
-    position: relative;
-    border-radius: 8px;
-    background: #ff900e;
-    color: white;
     padding: 18px 23px;
     font-size: 1.25rem;
-    cursor: pointer;
-    border: 0;
+    margin-bottom: 4px;
 }
 
 /* header styles */
@@ -149,7 +145,8 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 
@@ -161,9 +158,11 @@ main {
     h3.nav-title {
         margin: 0;
     }
-    .teams-img-container{
+
+    .teams-img-container {
         grid-template-columns: 1fr;
     }
+
     .teams-content {
         padding-left: 20px;
         padding-right: 20px;
@@ -177,7 +176,8 @@ main {
         padding: 50px;
     }
 
-    nav, .teams-container {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 }
