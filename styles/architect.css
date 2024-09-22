@@ -219,12 +219,15 @@ main {
 
 
 /* footer style */
+
 footer{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 100px;
 }
-
+footer p{
+    text-align: center;
+}
 
 
 
