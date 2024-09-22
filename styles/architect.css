@@ -131,6 +131,11 @@ main {
 
 
 /* facts section */
+.facts-cart-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .facts-cart-container .cart {
     border-radius: 8px;
     border: solid #ff900e;
@@ -140,26 +145,33 @@ main {
 
 }
 
-.facts-cart-container {
-    display: flex;
-    justify-content: space-around;
-}
-
 .facts-cart-container .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.facts-cart-container .card-title{
+
+.facts-cart-container .card-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 5px;
 }
 
-
-
-
+/* sponsors style */
+.sponsors{
+    text-align: center;
+}
+.sponsrs-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+.sponsrs-img-container img{
+    width: 165px;
+}
 
 
 
@@ -186,7 +198,9 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-cart-container,
+    .sponsrs-img-container {
         flex-direction: column;
     }
 
@@ -203,7 +217,7 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content, .facts-cart-container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -215,6 +229,9 @@ main {
     nav>ul {
         margin-bottom: 0%;
     }
+    .facts-cart-container{
+        gap: 20px;
+    }
 
 }
 
@@ -225,7 +242,8 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .sponsrs-img-container {
         flex-direction: column;
     }
 
