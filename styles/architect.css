@@ -220,14 +220,12 @@ main {
 
 /* footer style */
 
-footer{
+ footer{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 100px;
 }
-footer p{
-    text-align: center;
-}
+
 
 
 
