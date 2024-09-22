@@ -129,25 +129,27 @@ main {
 }
 
 /* features section style */
-.features{
+.features {
     display: flex;
     margin-top: 140px;
     gap: 100px;
 }
-.feature-content .card{
+
+.feature-content .card {
     margin-bottom: 20px;
     padding: 30px;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0px 4px 30px 0px reba(0 ,0 ,0, 0.06);
+    box-shadow: 0px 4px 30px 0px reba(0, 0, 0, 0.06);
 }
 
 
-.features .section-title{
+.features .section-title {
     border-left: 5px solid #ff900e;
     padding-left: 20px;
 }
-.ten-years-badge{
+
+.ten-years-badge {
     border-radius: 8px;
     background-color: #ff900e;
     color: white;
@@ -157,21 +159,24 @@ main {
     bottom: 120px;
     right: 50px;
 }
-.ten-years-badge h2{
+
+.ten-years-badge h2 {
     font-size: 4rem;
     margin: 0;
     text-align: center;
-    
+
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.5rem;
     text-align: center;
 }
 
-.features-img img{
+.features-img img {
     height: 80%;
     margin-left: 50px;
 }
+
 /* facts section */
 .facts-cart-container {
     display: flex;
@@ -199,28 +204,32 @@ main {
     font-size: 1.25rem;
     margin-top: 5px;
 }
-.facts-div{
+
+.facts-div {
     width: 40%;
 }
+
 /* sponsors style */
-.sponsors{
+.sponsors {
     text-align: center;
 }
-.sponsrs-img-container{
+
+.sponsrs-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     align-items: center;
 }
-.sponsrs-img-container img{
+
+.sponsrs-img-container img {
     width: 165px;
 }
 
 
 /* footer style */
 
- footer{
+footer {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 100px;
@@ -282,29 +291,36 @@ main {
     nav>ul {
         margin-bottom: 0%;
     }
-    .facts-cart-container{
+
+    .facts-cart-container {
         gap: 20px;
     }
+
     .facts-div {
         width: 100%;
     }
+
     .facts-div h3.section-title {
         margin-bottom: 3%;
     }
-    .features-img img{
+
+    .features-img img {
         width: 90%;
         margin: 0;
 
-        
+
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
         max-width: 260px;
-        
+
     }
+
     .features-img {
         padding-left: 38px;
     }
+
     .feature-content {
         padding-left: 10px;
     }
@@ -331,11 +347,13 @@ main {
     nav>ul {
         margin-bottom: 0%;
     }
+
     .facts-div {
         width: 100%;
     }
+
     .features-img {
         padding-left: 50px;
     }
-    
+
 }
